@@ -16,16 +16,77 @@
     
         .nav{
             margin: auto;
+
+            .close{
+                display: none;
+                background: transparent;
+                border: 0;
+                padding: 5px;
+                margin-left: auto;
+                font-size: 2em;
+                cursor: pointer;
+                transition: .2s;
+            }
     
             a{
                 margin: 0 15px;
                 cursor: pointer;
                 transition: .2s;
+                width: fit-content;
 
                 &:hover{
                     color: darken($white, 25%);
                 }
             }
         }
+
+        .menu{
+            display: none;
+            background: transparent;
+            border: 0;
+            border-radius: 5px;
+            padding: 5px;
+            margin-left: auto;
+            font-size: 2em;
+            cursor: pointer;
+            transition: .2s;
+
+            &:hover{
+                background-color: $purple;
+            }
+        }
     }
+}
+
+@media only screen and (max-width: 767px) {
+.header{
+    .container{
+        .nav{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            padding: 15px 30px;
+            gap: 20px;
+            background-color: darken($purple, 25%);
+            transform: translateX(-100vw);
+            transition: .6s;
+
+            &.active{
+              transform: translateX(0vw);  
+            }
+
+            a{
+                font-size: 1.2em;
+            }
+        }
+
+        .mobile{
+            display: flex !important;
+        }
+    }
+}
 }

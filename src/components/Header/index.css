@@ -30,11 +30,63 @@ body {
 .header .container .nav {
   margin: auto;
 }
+.header .container .nav .close {
+  display: none;
+  background: transparent;
+  border: 0;
+  padding: 5px;
+  margin-left: auto;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.2s;
+}
 .header .container .nav a {
   margin: 0 15px;
   cursor: pointer;
   transition: 0.2s;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .header .container .nav a:hover {
   color: #bfbfbf;
+}
+.header .container .menu {
+  display: none;
+  background: transparent;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: auto;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.header .container .menu:hover {
+  background-color: #6722b0;
+}
+
+@media only screen and (max-width: 767px) {
+  .header .container .nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 15px 30px;
+    gap: 20px;
+    background-color: #280d45;
+    transform: translateX(-100vw);
+    transition: 0.6s;
+  }
+  .header .container .nav.active {
+    transform: translateX(0vw);
+  }
+  .header .container .nav a {
+    font-size: 1.2em;
+  }
+  .header .container .mobile {
+    display: flex !important;
+  }
 }/*# sourceMappingURL=index.css.map */
