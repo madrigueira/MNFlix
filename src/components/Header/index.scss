@@ -1,0 +1,31 @@
+@import '../../assets/style/';
+
+.header{
+    width: 100%;
+    background-image: linear-gradient(darken($purple, 25%), transparent);
+
+    .container{
+        @include container();
+        height: 100px;
+        align-items: center;
+
+        h1{
+            position: absolute;
+            text-transform: uppercase;
+        }
+    
+        .nav{
+            margin: auto;
+    
+            a{
+                margin: 0 15px;
+                cursor: pointer;
+                transition: .2s;
+
+                &:hover{
+                    color: darken($white, 25%);
+                }
+            }
+        }
+    }
+}

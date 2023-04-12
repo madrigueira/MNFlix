@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/* VARIAVEIS */
+$black: #000;
+$white: #fff;
+$gray: #50514f;
+$purple: #6722b0;
+$pink: #ef214b;
+$blue: #4665e6;
+$light_blue: #6fc7ec;
+$dark_blue: #331b9c;
+
+@mixin container{
+    display: flex;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+body{
+    background-color: darken($purple, 50%);
+}

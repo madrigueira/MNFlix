@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+/* VARIAVEIS */
+body {
+  background-color: black;
+}
+
+.header {
+  width: 100%;
+  background-image: linear-gradient(#280d45, transparent);
+}
+.header .container {
+  display: flex;
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+  height: 100px;
+  align-items: center;
+}
+.header .container h1 {
+  position: absolute;
+  text-transform: uppercase;
+}
+.header .container .nav {
+  margin: auto;
+}
+.header .container .nav a {
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.header .container .nav a:hover {
+  color: #bfbfbf;
+}/*# sourceMappingURL=index.css.map */
