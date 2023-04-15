@@ -1,4 +1,5 @@
-import './index.css'
+import './index.scss'
+import imgs from '../../assets/Images'
 import { AiOutlineMenu } from 'react-icons/ai';
 
 function openMenu(){
@@ -10,10 +11,10 @@ function Header() {
     return ( 
         <div className='header'>
             <div className='container'>
-                <h1>MNFlix</h1>
+                <img src={ imgs.logo } className='logo' />
                 <div className='nav'>
                     <button className='close mobile' onClick={openMenu}>✕</button>
-                    <a>Home</a>
+                    <a className='active'>Início</a>
                     <a>Lorem</a>
                     <a>Ipsum</a>
                     <a>Kekw</a>
@@ -21,7 +22,7 @@ function Header() {
                 <button className="menu mobile" onClick={openMenu}><AiOutlineMenu /></button>
             </div>
         </div>
-     );
+    );
 }
 
 export default Header;
