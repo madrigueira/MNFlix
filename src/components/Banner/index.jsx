@@ -7,7 +7,7 @@
   const {bg,title} = data.teste[Math.floor(Math.random() * data.teste.length)]
 
    return (
-   <div className='banner'style={{backgroundImage:`url(${bg})`}}>
+   <div className='banner'style={{backgroundImage:`linear-gradient(transparent 60%, #141414 98%), url(${bg})`}}>
          <div className="container">
              <h3 className={title.length > 36 ? 'small' : ""}>{title}</h3>
              <div className="top">
