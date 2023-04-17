@@ -1,5 +1,5 @@
 const imgs = {
-    logo: 'src/content/logo.png'
+    logo: 'src/static/logo.png'
 }
 
 export default imgs

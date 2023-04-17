@@ -121,6 +121,10 @@
             font-size: 1.8em;
             text-align: center;
             width: 100%;
+
+            &.small{
+                font-size: 1.4em
+            }
         }
 
         .top{
