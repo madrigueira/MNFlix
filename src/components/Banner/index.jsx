@@ -4,7 +4,7 @@
  import data from '../../dados.json';
 
  function Banner(){
-  const {bg,title} = data.teste[Math.floor(Math.random() * data.teste.length)]
+  const {bg,title,desc} = data.teste[Math.floor(Math.random() * data.teste.length)]
 
    return (
    <div className='banner'style={{backgroundImage:`linear-gradient(transparent 60%, #141414 98%), url(${bg})`}}>
@@ -14,8 +14,7 @@
                  <a>top<br/>10</a>
                  <h4>Top 1 em sonegação hoje</h4>
              </div>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus temporibus distinctio repellendus, 
-             ducimus, nisi nemo cumque id.</p>
+             <p>{desc}</p>
              <div className="buttons">
                  <button className="assistir"><BsFillPlayFill/>Assistir</button>
                  <button className="informacoes"><AiOutlineInfoCircle/>Mais Informações</button>
