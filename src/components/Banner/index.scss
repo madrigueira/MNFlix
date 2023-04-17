@@ -20,6 +20,11 @@
             font-size: 5em;
             line-height: 95%;
             text-transform: uppercase;
+            width: 50%;
+
+            &.small{
+                font-size: 3.5em;
+            }
         }
 
         .top{
