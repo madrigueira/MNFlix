@@ -1,11 +1,11 @@
 import './index.scss'
-import imgs from '../../assets/Images'
+import logo from '../../content/logo.png'
 
 function Header() {
     return ( 
         <div className='header'>
             <div className='container'>
-                <img src={ imgs.logo } className='logo' />
+                <img src={ logo } className='logo' />
                 <div className='nav'>
                     <a className='active'>Início</a>
                     <a>Gameplay</a>
