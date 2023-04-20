@@ -1,0 +1,20 @@
+@import '../../';
+
+.slider{
+    margin: auto;
+    // padding: 0 30px;
+    display: flex;
+    // gap: 15px;
+    transition: .6s;
+
+
+    &.active{
+        transform: translateX(calc(-19.75vw));
+    }
+}
+
+#lol{
+    margin: 30px;
+    padding: 15px 45px;
+    color: #000;
+}

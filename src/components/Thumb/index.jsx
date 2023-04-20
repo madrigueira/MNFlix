@@ -1,13 +1,14 @@
 import './index.scss'
-import  '../../dados.json'
+import data from '../../dados.json'
 
 function Thumb({ bg, title }){   
 
+    // const {bg, title} = data.videos[0]
+
     return(
-        <div className="slider">
-            <div className="container">
-                <div className="item" style={{backgroundImage: `url(${bg})`}}></div>
-                <h1>{title}</h1>
+        <div className="thumb">
+            <div className="item" style={{backgroundImage: `linear-gradient(transparent 50%, #000 110%), url(${bg})`}}>
+                <h5 className={title.length > 26 ? 'small' : ""}>{title}</h5>
             </div>
         </div>
     )

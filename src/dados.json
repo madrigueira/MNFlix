@@ -3,17 +3,38 @@
         {
             "bg": "https://img.youtube.com/vi/oAMVSi_pkwc/maxresdefault.jpg",
             "title": "best of calegão",
-            "desc": "Cinco especialistas destilam ódio sobre as escolhas de vida de um jovem trambiqueiro que seguiu o caminho da sonegação."
+            "desc": "Cinco especialistas destilam ódio sobre as escolhas de vida de um jovem trambiqueiro que seguiu o caminho da sonegação.",
+            "top": "sonegação"
         },
         {
             "bg": "https://img.youtube.com/vi/u5j_hkIPIP4/maxresdefault.jpg",
             "title": "cuidado com o bolabicho",
-            "desc": "Quatro jovens aventureiros se perdem em um hospital psiquiátrico abandonado na tentativa de produzir um vídeo e encontram coisas estranhas pelo caminho."
+            "desc": "Quatro jovens aventureiros se perdem em um hospital psiquiátrico abandonado na tentativa de produzir um vídeo e encontram coisas estranhas pelo caminho.",
+            "top": "bolakek"
         },
         {
             "bg": "https://i3.ytimg.com/vi/nzv2uRBu4UY/hqdefault.jpg",
             "title": "vídeo que define meus momentos de quarentena",
-            "desc": "A obra retrata mais um dia rotineiro em meio ao segundo ano de pandemia do COVID-19 semanas antes do Lockdown instituido pelo governo."
+            "desc": "A obra retrata mais um dia rotineiro em meio ao segundo ano de pandemia do COVID-19 semanas antes do Lockdown instituido pelo governo.",
+            "top": "saudade"
+        },
+        {
+            "bg": "https://img.youtube.com/vi/l7u1ZvLfH-4/maxresdefault.jpg",
+            "title": "simcimola",
+            "desc": "Os prefeitos das 3 maiores cidades da região e Várzea Paulista fazem uma reunião para discutir atrocidades enquanto governam porcamente seus municipios.",
+            "top": "corrupção"
+        },
+        {
+            "bg": "https://img.youtube.com/vi/5k7DJs4Q5ec/maxresdefault.jpg",
+            "title": "Gameplay INSANA",
+            "desc": "Meus Negros + Jonas batalham até a morte para provarem que conseguem sim protejer suas camas kek.",
+            "top": "Jonas"
+        },
+        {
+            "bg": "https://img.youtube.com/vi/Gp0Ua1h2bQM/maxresdefault.jpg",
+            "title": "Family Friendly's Opening",
+            "desc": "Abertura da série 'Family Friendly' (predecessora ao Spin-off 'Meus Negros).",
+            "top": "FF"
         }
     ]
 }
