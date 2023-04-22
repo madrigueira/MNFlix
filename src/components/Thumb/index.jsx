@@ -1,9 +1,6 @@
 import './index.scss'
-import data from '../../dados.json'
 
 function Thumb({ bg, title }){   
-
-    // const {bg, title} = data.videos[0]
 
     return(
         <div className="thumb">
